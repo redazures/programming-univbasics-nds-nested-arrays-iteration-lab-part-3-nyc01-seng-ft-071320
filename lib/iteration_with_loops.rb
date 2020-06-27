@@ -16,4 +16,6 @@ mixed_data.each do|subora|
   end
 end
 
+p joint.join(" ")
+
 puts joint
