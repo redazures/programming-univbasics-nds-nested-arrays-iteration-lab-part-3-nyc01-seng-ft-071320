@@ -15,6 +15,5 @@ mixed_data.each do|subora|
     joint+element+" " if element.kind_of? String
   end
 end
-joint.toString()
 
 puts joint
