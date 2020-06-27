@@ -12,7 +12,7 @@ mixed_data = [
 joint=[]
 mixed_data.each do|subora|
   subora.each do|element|
-    joint+element+" " if element.kind_of? String
+    joint<<element if element.kind_of? String
   end
 end
 
