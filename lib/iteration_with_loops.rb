@@ -7,6 +7,7 @@ def join_nested_strings(src)
       joint<<element if element.kind_of? String
     end
   end
+  p joint.join(" ")
 end
 
 mixed_data = [
@@ -17,6 +18,6 @@ mixed_data = [
 
 
 
-p joint.join(" ")
+
 
 #puts joint
