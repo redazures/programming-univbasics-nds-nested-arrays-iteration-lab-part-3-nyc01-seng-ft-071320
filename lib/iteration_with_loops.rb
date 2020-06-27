@@ -18,4 +18,4 @@ end
 
 p joint.join(" ")
 
-puts joint
+#puts joint
