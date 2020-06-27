@@ -9,7 +9,7 @@ mixed_data = [
   ["studied", 101, 233, "Ruby"]
 ]
 
-joint=[]
+joint=" "
 mixed_data.each do|subora|
   subora.each do|element|
     joint<<element if element.kind_of? String
