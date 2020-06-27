@@ -1,6 +1,12 @@
 def join_nested_strings(src)
   # src will be an Array of Arrays of Strings and Integers
   # Combine all Strings present in the AoA into a single value and return it
+  joint=[]
+  src.each do|subora|
+    subora.each do|element|
+      joint<<element if element.kind_of? String
+    end
+  end
 end
 
 mixed_data = [
@@ -9,12 +15,7 @@ mixed_data = [
   ["studied", 101, 233, "Ruby"]
 ]
 
-joint=[]
-mixed_data.each do|subora|
-  subora.each do|element|
-    joint<<element if element.kind_of? String
-  end
-end
+
 
 p joint.join(" ")
 
