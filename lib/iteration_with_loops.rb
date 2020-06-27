@@ -8,3 +8,10 @@ mixed_data = [
   [-1, "brown", "fox", 30],
   ["studied", 101, 233, "Ruby"]
 ]
+
+joint=[]
+mixed_data.each do|subora|
+  subora.each do|element|
+    joint<<element if element.kind_of? String
+  end
+end
